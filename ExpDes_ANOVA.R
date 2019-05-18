@@ -1,7 +1,7 @@
 ### ANOVA utilizando pacote ExpDes ###
 dados <- read.csv("teste.csv", header = TRUE, sep = '\t')
-dados$Trat = factor(dados$Trat, levels=unique(dados$Trat))
-dados$Rep=factor(dados$Rep, levels=unique(dados$Rep))
+dados$Trat <- factor(dados$Trat, levels=unique(dados$Trat))
+dados$Rep <- factor(dados$Rep, levels=unique(dados$Rep))
 
 library(ExpDes)
 #Tukey
